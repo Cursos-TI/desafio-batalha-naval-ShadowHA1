@@ -54,7 +54,7 @@ int podePosicionarNavio(int linha, int coluna, char orientacao, int diagonal, in
     return 1; // pode posicionar
 }
 
-// Posiciona navio no tabuleiro, já validado
+// Posiciona navio no tabuleiro,já validado
 void posicionaNavio(int linha, int coluna, char orientacao, int diagonal, int tamanho) {
     for(int i=0; i<tamanho; i++) {
         int l = linha;
